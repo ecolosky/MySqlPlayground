@@ -1,5 +1,7 @@
+from datetime import date
+
 class Cat:
-    def __init__(self, name, owner, birthdate):
+    def __init__(self, name: str, owner: str, birthdate: date):
         self.name = name
         self.owner = owner
         self.birthdate = birthdate
